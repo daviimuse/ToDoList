@@ -13,7 +13,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script>
       $(function(){
-        $("#navbar").load("../components/navbar.html"); 
+        $("#navbar").load("navbar.html"); 
       });
     </script>
     <title>Registration Form</title>
@@ -37,7 +37,8 @@
     <div class="tab-content">
       <div class="tab-pane fade show active" id="pills-login" role="tabpanel" aria-labelledby="tab-login">
         <form>
-          <div class="text-center mb-3">
+
+          <!-- <div class="text-center mb-3">
             <p>Sign in with:</p>
             <button type="button" class="btn btn-primary btn-floating mx-1">
               <i class="fab fa-facebook-f"></i>
@@ -46,17 +47,9 @@
             <button type="button" class="btn btn-primary btn-floating mx-1">
               <i class="fab fa-google"></i>
             </button>
+          </div> 
+          <p class="text-center">or:</p>-->
 
-            <button type="button" class="btn btn-primary btn-floating mx-1">
-              <i class="fab fa-twitter"></i>
-            </button>
-
-            <button type="button" class="btn btn-primary btn-floating mx-1">
-              <i class="fab fa-github"></i>
-            </button>
-          </div>
-
-          <p class="text-center">or:</p>
 
           <!-- Email input -->
           <div class="form-outline mb-4">
@@ -97,7 +90,8 @@
       </div>
       <div class="tab-pane fade" id="pills-register" role="tabpanel" aria-labelledby="tab-register">
         <form>
-          <div class="text-center mb-3">
+
+          <!-- <div class="text-center mb-3">
             <p>Sign up with:</p>
             <button type="button" class="btn btn-primary btn-floating mx-1">
               <i class="fab fa-facebook-f"></i>
@@ -114,9 +108,9 @@
             <button type="button" class="btn btn-primary btn-floating mx-1">
               <i class="fab fa-github"></i>
             </button>
-          </div>
+          </div> 
+          <p class="text-center">or:</p> -->
 
-          <p class="text-center">or:</p>
 
           <!-- Name input -->
           <div class="form-outline mb-4">
@@ -128,6 +122,9 @@
           <div class="form-outline mb-4">
             <input type="text" id="registerUsername" class="form-control" />
             <label class="form-label" for="registerUsername">Username</label>
+          </div>
+          <div id="textExample1" class="form-text">
+            We'll never share your email with anyone else.
           </div>
 
           <!-- Email input -->
